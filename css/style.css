@@ -1,0 +1,107 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+body {
+
+	background: linear-gradient(to right, #54d2f4, #41b6e6 , #0c44b4);
+
+
+}
+
+.bgimage {
+
+	background-image: url(../images/bg1.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+.logo img {
+	overflow: hidden;
+	height: 80px;
+	width: 80px;
+	padding-bottom: 10px;
+	position: relative;
+	top: -10px;
+	left: 20px;
+
+}
+
+.title p {
+	font-size: 30px;
+	color: #fff;
+}
+
+.login {
+	margin: auto;
+	margin-bottom: 50px;
+	width: 70%;
+}
+
+.header {
+
+	background-color: #003087;
+	color: #fff;
+	padding: 10px;
+
+}
+
+.dmenu {
+	background-color: #fff;
+	display: block;
+	padding: 0px;
+	position: relative;
+	top: 7px;
+	left: 50px;
+	border-radius: 20px;
+}
+
+.row .logintitle {
+	background-color: #92c86d;
+	color: white;
+	font-size: 20px;
+}
+
+.footer {
+	margin-top: 33px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	background-attachment: fixed;
+
+}
+
+.footer div {
+
+	padding: 0px 0px;
+}
+
+/* inner page */
+.menucontent {
+
+	height: max-content;
+}
+
+.contentinside {
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+.maincontent {
+
+	height: 100%;
+
+}
+
+#adddoctor {
+	display: none;
+}
+
+.active {
+	background-color: #EEEEEE;
+}
